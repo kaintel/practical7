@@ -1,0 +1,68 @@
+  <head>
+    <script src="https://aframe.io/releases/1.5.0/aframe.min.js"></script>
+  </head>
+  <body>
+    <a-scene>
+<!-- http://localhost:8090/ -->
+
+<a-assets>
+<img src="metal.jpg" id="metal">
+
+</a-assets>
+
+   
+<a-box position="0 0 0" width="0.6" height="0.3" depth="0.1" ></a-box>
+<a-box position="-0.6 0 0" width="0.6" height="0.3" depth="0.1" ></a-box>
+<a-box position="0.6 0 0" width="0.6" height="0.3" depth="0.1" ></a-box>
+
+<a-box position="0 0.3 0" width="0.6" height="0.3" depth="0.1" ></a-box>
+<a-box position="-0.6 0.3 0" width="0.6" height="0.3" depth="0.1" ></a-box>
+<a-box position="0.6 0.3 0" width="0.6" height="0.3" depth="0.1" ></a-box>
+
+<a-box position="0 0.6 0" width="0.6" height="0.3" depth="0.1" ></a-box>
+<a-box position="-0.6 0.6 0" width="0.6" height="0.3" depth="0.1" ></a-box>
+<a-box position="0.6 0.6 0" width="0.6" height="0.3" depth="0.1" ></a-box>
+
+	  <a-entity class="car"  position="5 0 0" rotation="0 0 0">
+       <a-box wireframe="true" position="0 3 0" width="15" height="5" depth="7" ></a-box>
+	   <a-box position="0 1.7 0"  width="7" height="1.7" depth="3" color="black" ></a-box>
+	 <a-box position="3.5 2 0" rotation="0 90 90" width="1" height="3" depth="0.1" color="cyan" ></a-box>
+	    <a-box position="0.9 0.7 0" width="8" height="0.6" depth="3"  color="green" ></a-box>
+	   	   <a-box position="3.3 1.5 0" rotation="20 90 0" width="3" height="0.7" depth="3.3" color="red" ></a-box>
+	 <a-cylinder position="-2.1 0.7 -1.7" rotation="90 0 0" radius="0.6" height="0.5" color="blue"></a-cylinder>
+<a-cylinder position="2.1 0.7 -1.7" rotation="90 0 0" radius="0.6" height="0.5" color="blue"></a-cylinder>
+<a-cylinder position="2.1 0.7 1.7" rotation="90 0 0" radius="0.6" height="0.5" color="blue"></a-cylinder>
+<a-cylinder position="-2.1 0.7 1.7" rotation="90 0 0" radius="0.6" height="0.5" color="blue"></a-cylinder>
+	</a-entity>
+	
+	
+		  <a-entity class="car" position="-2 0 -6" rotation="0 90a 0">
+       <a-box wireframe="true" position="0 3 0" width="15" height="5" depth="7" ></a-box>
+	   <a-box position="0 1.7 0" width="7" height="1.7" depth="3" color="black" ></a-box>
+	 <a-box position="3.5 2 0" rotation="0 90 90" width="1" height="3" depth="0.1" color="cyan" ></a-box>
+	    <a-box position="0.9 0.7 0" width="8" height="0.6" depth="3"  color="green" ></a-box>
+	   	   <a-box position="3.3 1.5 0" rotation="20 90 0" width="3" height="0.7" depth="3.3" color="red" ></a-box>
+	 <a-cylinder position="-2.1 0.7 -1.7" rotation="90 0 0" radius="0.6" height="0.5" color="blue"></a-cylinder>
+<a-cylinder position="2.1 0.7 -1.7" rotation="90 0 0" radius="0.6" height="0.5" color="blue"></a-cylinder>
+<a-cylinder position="2.1 0.7 1.7" rotation="90 0 0" radius="0.6" height="0.5" color="blue"></a-cylinder>
+<a-cylinder position="-2.1 0.7 1.7" rotation="90 0 0" radius="0.6" height="0.5" color="blue"></a-cylinder>
+	</a-entity>
+	
+	<a-entity class="car" position="2 3 -6" rotation="20 90 100">
+       <a-box wireframe="true" position="0 3 0" width="15" height="5" depth="7" ></a-box>
+	   <a-box position="0 1.7 0" width="7" height="1.7" depth="3" color="black" ></a-box>
+	 <a-box position="3.5 2 0" rotation="0 90 90" width="1" height="3" depth="0.1" color="cyan" ></a-box>
+	    <a-box position="0.9 0.7 0" width="8" height="0.6" depth="3"  color="green" ></a-box>
+	   	   <a-box position="3.3 1.5 0" rotation="20 90 0" width="3" height="0.7" depth="3.3" color="red" ></a-box>
+	 <a-cylinder position="-2.1 0.7 -1.7" rotation="90 0 0" radius="0.6" height="0.5" color="blue"></a-cylinder>
+<a-cylinder position="2.1 0.7 -1.7" rotation="90 0 0" radius="0.6" height="0.5" color="blue"></a-cylinder>
+<a-cylinder position="2.1 0.7 1.7" rotation="90 0 0" radius="0.6" height="0.5" color="blue"></a-cylinder>
+<a-cylinder position="-2.1 0.7 1.7" rotation="90 0 0" radius="0.6" height="0.5" color="blue"></a-cylinder>
+	</a-entity>
+      <a-plane position="0 0 -1" rotation="-90 0 0" width="50" height="50" color="#7BC8A4"></a-plane>
+      <a-sky color="#ECECEC"></a-sky>
+      <!-- Camera is added so that you do not "spawn" at the origin -->
+      <a-camera position="0 1.6 5"></a-camera>
+    </a-scene>
+  </body>
+</html>

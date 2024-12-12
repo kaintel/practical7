@@ -1,0 +1,30 @@
+<html>
+  <head>
+    <script src="https://aframe.io/releases/1.3.0/aframe.min.js"></script>
+  </head>
+  <body>
+    <a-scene>
+	
+	<!-- http://localhost:8017 /-->
+ <a-entity class="pac">
+  <a-sphere phi-start="0" phi-length="300" side="double" rotation="120 90 270" position="0 3 0" color="yellow" radius="2"></a-sphere>
+  <a-sphere   position="1 4.3 1" color="black" radius="0.15"></a-sphere>
+   <a-sphere   position="1 4.3 -1" color="black" radius="0.15"></a-sphere>
+ </a-entity>
+ 
+  
+ 
+ <a-plane   position="0 1 0" rotation="-90 0 0" width="200" height="200"  color="green"> </a-plane>
+ <a-sky  ></a-sky>
+ 
+    <a-camera position="0 1.6 5">
+	
+	<a-cursor>
+          <a-box color="black" scale= "0.2 0.2 0.2"></a-text>
+        </a-cursor>
+	
+	</a-camera>
+	
+    </a-scene>
+  </body>
+</html>
